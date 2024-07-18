@@ -1,30 +1,30 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Variáveis de cores */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #0f1a78;
+  --secondary-color: #07a2e3;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Classes personalizadas */
+@layer components {
+  .text-secondary-color {
+    color: var(--secondary-color);
+  }
+
+  .bg-primary-color {
+    background-color: var(--primary-color);
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-white;
 }
+
+
 
 @layer utilities {
   .text-balance {
