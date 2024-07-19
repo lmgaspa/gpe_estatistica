@@ -6,8 +6,8 @@ import googlePlayBadge from '../public/googlebadge.png';
 const AplicativoPage: React.FC = () => {
   return (
     <div className="flex flex-col lg:flex-row mx-auto w-full lg:w-5/6 items-center justify-center p-4 lg:p-6">
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full">
-        <div className="flex-1 lg:w-1/2 text-center lg:text-left p-4 lg:pl-12">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full lg:ml-12">
+        <div className="flex-1 lg:w-1/2 text-center lg:text-left p-4 lg:ml-12 lg:pl-12">
           <h1 className="text-2xl lg:text-4xl font-bold mb-4">Fazer entrevista nunca foi tão fácil</h1>
           <p className="text-base lg:text-lg mb-6">
             Tudo que você precisa para fazer entrevista agora na palma da sua mão.
@@ -19,7 +19,7 @@ const AplicativoPage: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 lg:w-1/2 flex justify-center p-4 lg:pr-12">
+        <div className="flex-1 lg:w-1/2 flex justify-center p-4 lg:mr-12 lg:pr-12">
           <Image src={appImage} alt="App Image" className="w-full max-w-sm scale-150" />
         </div>
       </div>
