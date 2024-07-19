@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           </div>
           <ul className="hidden lg:flex lg:space-x-1 lg:items-center">
             <li>
-              <Link href="/" className="block p-4 lg:p-2 hover:text-secondary-color text-center">
+              <Link href="/" className="block p-4 lg:p-2 hover:text-yellow-300 text-center">
                 Início
               </Link>
             </li>

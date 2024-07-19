@@ -109,7 +109,7 @@ const Contato: React.FC = () => {
             />
           </div>
           <div className="flex items-center justify-center">
-            <button className="bg-primary hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline  transition duration-300" type="submit">
+            <button className="mt-6 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transition duration-300" type="submit">
               ENVIAR MENSAGEM
             </button>
           </div>
