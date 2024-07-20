@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <FaEnvelope />
             <span>gpebahia@gmail.com</span>
           </a>
-          <a href="https://wa.me/5571991474445" className="flex items-center space-x-2 hover:text-yellow-300">
+          <a href="https://wa.me/55719197-4445" className="flex items-center space-x-2 hover:text-yellow-300">
             <FaWhatsapp />
             <span>(71) 99147-4445</span>
           </a>
