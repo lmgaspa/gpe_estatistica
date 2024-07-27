@@ -35,11 +35,11 @@ const InstitutoPage: React.FC = () => {
           <ul className="list-disc list-inside text-left mx-auto w-3/4 mt-2">
             <li className='pb-2'>Realiza pesquisas de mercado e de opinião e mantém na pesquisa seu foco de atuação. Não realiza atividades de assessoria, atribuições e competências concernentes a outros profissionais, especialmente ligados a agências de propaganda e empresas de consultoria.</li>
             <li className='pb-2'>Não possui contratos de exclusividade. Contudo, caso a realização de uma pesquisa possa resultar em prejuízo a cliente regular, não atenderá a um segundo cliente, especialmente em períodos sensíveis, como os próximos de uma eleição, em se tratando de pesquisas político-eleitorais.</li>
-            <li className='pb-2'>Não realiza divulgação de resultados de pesquisa, nem das registradas. A divulgação dos resultados é de responsabilidade única e exclusiva do contratante. O Instituto apenas respalda divulgações com o devido registro na Justiça Eleitoral.</li>
+            <li className='pb-2 font-bold text-red-700'>Não realiza divulgação de resultados de pesquisa, nem das registradas. A divulgação dos resultados é de responsabilidade única e exclusiva do contratante. O Instituto apenas respalda divulgações com o devido registro na Justiça Eleitoral.</li>
             <li className='pb-2'>Mantém o anonimato de todos os entrevistados. Nenhum dado é utilizado de forma individualizada, mas apenas de forma agregada.</li>
             <li className='pb-2'>Observa o código de ética das empresas de pesquisas de mercado (ESOMAR e ABEP) e não realiza perguntas que possam colocar em risco a integridade dos pesquisadores e dos entrevistados e/ou ofender valores do presente patamar civilizacional.</li>
             <li className='pb-2'>O compromisso do instituto foi e continua sendo, em primeiro lugar, captar a realidade.</li>
-            <li className='pb-2'>No caso da pesquisa eleitoral, observamos e cumprimos as exigências legais do TSE.</li>
+            <li className='pb-2 font-bold text-red-700'>No caso da pesquisa eleitoral, observamos e cumprimos as exigências legais do TSE.</li>
           </ul>
           <h3 className="list-disc list-inside text-left mx-auto w-3/4 text-lg font-semibold mt-4 pb-2">O que fazemos</h3>
           <p className="text-justify mx-auto w-3/4 pb-2">Veja aqui os tipos de pesquisa que realizamos:</p>
