@@ -28,7 +28,7 @@ const InstitutoPage: React.FC = () => {
           <p className="text-justify mx-auto w-3/4">
             Realização de pesquisas de mercado e de opinião objetivando captar fidedignamente a realidade.
           </p>
-          <h3 className="list-disc list-inside text-left mx-auto w-3/4 text-lg font-semibold mt-4 pb-2 text-red-700">Política da GPE</h3>
+          <h3 className="list-disc list-inside text-left mx-auto w-3/4 text-lg font-bold mt-4 pb-2 text-red-700">Política da GPE</h3>
           <p className="text-justify mx-auto w-3/4">
             O instituto de pesquisas de mercado e de opinião GPE, assim como a Sócio Estatística, desde 1990, vem mantendo os princípios a seguir:
           </p>
