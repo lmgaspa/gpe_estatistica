@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Image from 'next/image';
 
-const Contato: React.FC = () => {
+const ContatoPage: React.FC = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -120,4 +120,4 @@ const Contato: React.FC = () => {
   );
 };
 
-export default Contato;
+export default ContatoPage;

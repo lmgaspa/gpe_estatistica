@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Eleicoes: React.FC = () => {
+const EleicoesPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center p-6">
       <h1 className="text-xl md:text-2xl font-bold mb-4">Eleições Municipais 2024</h1>
@@ -91,4 +91,4 @@ const Eleicoes: React.FC = () => {
   );
 };
 
-export default Eleicoes;
+export default EleicoesPage;
