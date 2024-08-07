@@ -20,7 +20,7 @@ const AplicativoPage: React.FC = () => {
           </div>
         </div>
         <div className="flex-1 lg:w-1/2 flex justify-center p-4 lg:mr-12 lg:pr-12">
-          <Image src={appImage} alt="App Image" className="w-full max-w-sm scale-150" />
+          <Image src={appImage} alt="App Image" className="w-full max-w-sm scale-125" />
         </div>
       </div>
     </div>
