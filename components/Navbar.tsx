@@ -103,7 +103,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/aplicativo" className="block p-2 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/aplicativo" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Aplicativo da GPE
             </Link>
           </li>
