@@ -76,34 +76,34 @@ const Navbar: React.FC = () => {
         </div>
       </nav>
       <div className={`${isOpen ? 'block' : 'hidden'} xl:hidden bg-blue-900 text-white`}>
-        <ul className="space-y-2">
+        <ul className="space-y-1">
           <li className="text-center">
-            <Link href="/" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Início
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/instituto" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/instituto" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Sobre o Instituto
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/eleicoes" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/eleicoes" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Eleições em 2024
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/denuncie" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/denuncie" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Denuncie pesquisas com irregularidades
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/contato" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/contato" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Contato
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/aplicativo" className="block p-4 hover:text-secondary-color" onClick={handleLinkClick}>
+            <Link href="/aplicativo" className="block p-2 hover:text-secondary-color" onClick={handleLinkClick}>
               Aplicativo da GPE
             </Link>
           </li>
