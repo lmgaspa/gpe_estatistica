@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Eleicoes2024Page from "./eleicoes"
+import EleicoesPage from "./eleicoes"
 import InstitutoPage from "./instituto"
 import DenunciePage from "./denuncie"
 import ContatoPage from "./contato"
@@ -13,7 +13,7 @@ const App: React.FC = () => {
                 <meta name="description" content="Pesquisas Políticas na região da Bahia!" />
             </Head>
         <InstitutoPage />
-        <Eleicoes2024Page />
+        <EleicoesPage />
         <DenunciePage />
         <ContatoPage />
         <AplicativoPage />
