@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import folder1 from '../public/folder1.jpg';
+import folder1 from '../../public/folder1.jpg';
 
 const InstitutoPage: React.FC = () => {
   return (

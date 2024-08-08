@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import appImage from '../public/app.png';
-import googlePlayBadge from '../public/googlebadge.png';
+import appImage from '../../public/app.png';
+import googlePlayBadge from '../../public/googlebadge.png';
 
 const AplicativoPage: React.FC = () => {
   return (

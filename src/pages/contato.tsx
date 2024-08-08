@@ -42,7 +42,12 @@ const ContatoPage: React.FC = () => {
   return (
     <div id="contato" className="flex flex-col sm:flex-row">
       <div className="flex-1 relative hidden lg:block">
-        <Image src="/contato.jpg" alt="contato" layout="fill" className="w-full h-full object-cover" />
+      <Image 
+        src="/contato.jpg" 
+        alt="contato" 
+        fill 
+        className="object-cover"
+      />
         <div className="absolute bottom-0 right-0 p-2 bg-black bg-opacity-50 text-white text-xs opacity-0 hover:opacity-100 transition-opacity duration-300">
           <a href="https://br.freepik.com/fotos-gratis/mulher-no-escritorio_6901060.htm#fromView=search&page=1&position=41&uuid=2b260e53-79aa-462b-94c0-8f220842a840" target="_blank" rel="noopener noreferrer">
             Imagem de Racool_studio no Freepik
