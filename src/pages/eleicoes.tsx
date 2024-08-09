@@ -3,7 +3,7 @@ import React from 'react';
 const EleicoesPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center p-6">
-      <h1 className="text-xl md:text-2xl font-bold mb-4">Eleições Municipais 2024</h1>
+      <h1 className="text-xl md:text-2xl font-bold mb-4 hover:text-blue-500 transition duration-300 cursor-default">Eleições Municipais 2024</h1>
       <p className="text-sm md:text-base text-center">
         Os registros das pesquisas realizadas pelo Instituto GPE Bahia podem ser encontrados no link abaixo <br></br>
         <a href="https://www.tse.jus.br/eleicoes/pesquisa-eleitorais/consulta-as-pesquisas-registradas" className="text-blue-500 underline ml-1">

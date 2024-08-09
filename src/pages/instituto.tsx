@@ -12,7 +12,7 @@ const InstitutoPage: React.FC = () => {
           alt="reunião de pessoas fazendo pesquisas"
         />
         <div className="mt-4">
-          <h1 className="list-disc list-inside text-left mx-auto w-3/4 text-2xl font-bold">ESCLARECIMENTO PÚBLICO</h1>
+          <h1 className="list-disc list-inside text-left mx-auto w-3/4 text-2xl font-bold hover:text-blue-500 transition duration-300 cursor-default">ESCLARECIMENTO PÚBLICO</h1>
           <p className="mt-2 text-justify mx-auto w-3/4">
             O Instituto de Pesquisa GASPARETTO PESQUISAS E ESTATÍSTICAS LTDA (GPE-Bahia), associado ao CONRE 5 da Bahia, sob nº 106,
             esclarece que o escopo de suas atividades se restringe EXCLUSIVAMENTE à realização e registro, quando demandado, de pesquisas eleitorais.
