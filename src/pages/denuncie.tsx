@@ -52,7 +52,7 @@ const DenunciePage: React.FC = () => {
           Sociólogo / GPE Pesquisas
         </p>
         <p className="mb-4">
-          ILuaor de Freitas, 30 de Agosto de 2024
+          Lauro de Freitas, 30 de Agosto de 2024
         </p>
       </div>
       <div className="mt-8  max-w-4xl mx-auto text-left">
