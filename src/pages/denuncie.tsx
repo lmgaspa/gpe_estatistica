@@ -16,7 +16,7 @@ const DenunciePage: React.FC = () => {
         Denuncie a circulação de Pesquisas FALSAS e divulgadas sem registro!
       </h1>
       <p className="">
-        Ajude a combater a divulgação de <span className="font-bold">FAKE NEWS </span> 
+        Ajude a combater a divulgação de <span className="font-bold">FAKE NEWS </span>
         e a combater <span className="font-bold">divulgações sem registro!</span>
       </p>
       <p className="mt-4 ">
@@ -28,6 +28,33 @@ const DenunciePage: React.FC = () => {
       >
         Clique aqui para nos avisar
       </button>
+      <div className="mt-8  max-w-4xl mx-auto text-left">
+        <h2 className="text-xl font-bold mb-2 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento</h2>
+        <p className="mb-4">
+          Em função de veiculação em Mirangaba, via redes sociais, de resultados
+          eleitorais atribuídos a um hipotético “Instituto GPE pesquisa eleitoral”, com data de agosto deste ano,
+          o Instituto Gasparetto de Pesquisas comunica que não tem nenhuma pesquisa registrada e nem realizada concernente ao
+          processo eleitoral nos municípios de Mirangaba, Ourolândia, Campo Formoso e Umburanas,
+          <span className='font-bold'> e que somente respalda divulgação de quaisquer pesquisas</span>,
+          única e exclusivamente, <span className='font-bold'>após o devido registro na Justiça Eleitoral.</span>
+          <br></br>
+          <br></br>Nesse sentido, quaisquer resultados eleitorais atribuídos ao Instituto, em qualquer município,
+          <span className='font-bold'> sem o devido registro na Justiça Eleitoral, não têm autorização e não avalizamos.</span>
+        </p>
+        <p>
+          E, no presente caso, sequer verdadeiros, pelo simples fato de que essas pesquisas nesses municípios não foram realizadas.
+        </p>
+        <p className="mb-4">
+          Atenciosamente,
+        </p>
+        <p className="mb-4">
+          Agenor Gasparetto<br />
+          Sociólogo / GPE Pesquisas
+        </p>
+        <p className="mb-4">
+          ILuaor de Freitas, 30 de aagosto de 2024
+        </p>
+      </div>
       <div className="mt-8  max-w-4xl mx-auto text-left">
         <h2 className="text-xl font-bold mb-2 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Ibicoara</h2>
         <p className="mb-4">
