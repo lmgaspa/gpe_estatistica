@@ -69,7 +69,7 @@ const ArtigosPage: React.FC = () => {
                     Sociólogo / GPE Pesquisas
                 </p>
                 <p className="mb-4">
-                    Lauro de Freitas, 30 de Agosto de 2024
+                    Lauro de Freitas, 3 de Setembro de 2024
                 </p>
             </div >
         </div>
