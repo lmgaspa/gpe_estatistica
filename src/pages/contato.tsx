@@ -60,7 +60,7 @@ const ContatoPage: React.FC = () => {
       </div>
       <div className="flex-1 flex items-center justify-center bg-blue-900 p-8">
         <form className="w-full bg-white p-4 rounded shadow-md" onSubmit={sendEmail}>
-          <h2 className="text-3xl font-bold mb-4 text-center">PRONTO PARA SOLICITAR UM ORÇAMENTO?</h2>
+          <h2 className="text-3xl text-blue-900 font-bold mb-4 text-center">PRONTO PARA SOLICITAR UM ORÇAMENTO?</h2>
           <p className="text-center font-bold mb-6">PREENCHA O FORMULÁRIO E ENTRAREMOS EM CONTATO.</p>
           <div className="mb-4">
             <label className="block text-black text-md font-bold mb-2" htmlFor="name">

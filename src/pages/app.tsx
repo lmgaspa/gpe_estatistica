@@ -3,6 +3,7 @@ import EleicoesPage from "./eleicoes"
 import InstitutoPage from "./instituto"
 import DenunciePage from "./denuncie"
 import ContatoPage from "./contato"
+import ArtigosPage from "./artigos"
 import AplicativoPage from "./aplicativo"
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <InstitutoPage />
         <EleicoesPage />
         <DenunciePage />
+        <ArtigosPage />
         <ContatoPage />
         <AplicativoPage />
     </main>

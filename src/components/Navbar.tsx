@@ -54,12 +54,17 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link href="/eleicoes" className="block p-4 lg:p-2 hover:text-yellow-300 text-center">
-                Eleições em 2024
+                Eleições 2024
               </Link>
             </li>
             <li>
               <Link href="/denuncie" className="block p-4 lg:p-2 hover:text-yellow-300 text-center">
                 Denuncie pesquisas com irregularidades
+              </Link>
+            </li>
+            <li>
+              <Link href="/artigos" className="block p-4 lg:p-2 hover:text-yellow-300 text-center">
+                Artigos
               </Link>
             </li>
             <li>
@@ -89,12 +94,17 @@ const Navbar: React.FC = () => {
           </li>
           <li className="text-center">
             <Link href="/eleicoes" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
-              Eleições em 2024
+              Eleições 2024
             </Link>
           </li>
           <li className="text-center">
             <Link href="/denuncie" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
               Denuncie pesquisas com irregularidades
+            </Link>
+          </li>
+          <li className="text-center">
+            <Link href="/artigos" className="block p-1 hover:text-secondary-color" onClick={handleLinkClick}>
+              Artigos
             </Link>
           </li>
           <li className="text-center">

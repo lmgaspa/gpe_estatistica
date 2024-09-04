@@ -12,7 +12,7 @@ const DenunciePage: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center p-6 text-center text-black min-h-screen">
-      <h1 className="text-2xl font-bold mb-4 hover:text-blue-500 transition duration-300 cursor-default">
+      <h1 className="text-2xl font-bold mb-4 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">
         Denuncie a circulação de Pesquisas FALSAS e divulgadas sem registro!
       </h1>
       <p className="">
@@ -29,7 +29,7 @@ const DenunciePage: React.FC = () => {
         Clique aqui para nos avisar
       </button>
       <div className="mt-8  max-w-4xl mx-auto text-left">
-        <h2 className="text-xl font-bold mb-2 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento</h2>
+        <h2 className="text-xl font-bold mb-2 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento</h2>
         <p className="mb-4">
           Em função de veiculação em Mirangaba, via redes sociais, de resultados
           eleitorais atribuídos a um hipotético “Instituto GPE pesquisa eleitoral”, com data de agosto deste ano,
@@ -56,7 +56,7 @@ const DenunciePage: React.FC = () => {
         </p>
       </div>
       <div className="mt-8  max-w-4xl mx-auto text-left">
-        <h2 className="text-xl font-bold mb-2 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Ibicoara</h2>
+        <h2 className="text-xl font-bold mb-2 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Ibicoara</h2>
         <p className="mb-4">
           O Instituto Gasparetto de Pesquisas comunica que não tem nenhuma pesquisa registrada
           concernente ao processo eleitoral do município de Ibicoara, e de nenhum outro município até a presente data,
@@ -76,7 +76,7 @@ const DenunciePage: React.FC = () => {
           Itabuna, 24 de abril de 2024
         </p>
 
-        <h2 className="text-xl font-bold mb-2 mt-8 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Pesquisa em Guaratinga</h2>
+        <h2 className="text-xl font-bold mb-2 mt-8 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Pesquisa em Guaratinga</h2>
         <p className="mb-4">
           O Instituto Gasparetto de Pesquisas comunica que não tem nenhuma pesquisa registrada concernente ao
           processo eleitoral do município de Guaratinga, e de nenhum outro município até a presente data,
