@@ -117,6 +117,7 @@ const Navbar: React.FC = () => {
               Aplicativo da GPE
             </Link>
           </li>
+          <div className="pb-1"> </div> 
         </ul>
       </div>
     </div>
