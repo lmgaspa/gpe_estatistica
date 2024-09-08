@@ -5,7 +5,7 @@ import folder1 from '../../public/folder1.webp';
 const InstitutoPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full px-1 sm:py-1 bg-white rounded-lg shadow-md text-center">
+      <div className="w-full px-1 sm:py-1 pt-1 bg-white rounded-lg shadow-md text-center">
         <Image
           src={folder1}
           className="w-full rounded-lg"
