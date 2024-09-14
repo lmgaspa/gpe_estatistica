@@ -29,7 +29,42 @@ const DenunciePage: React.FC = () => {
         Clique aqui para nos avisar
       </button>
       <div className="mt-8  max-w-4xl mx-auto text-left">
-        <h2 className="text-xl font-bold mb-2 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento</h2>
+        <h2 className="text-xl font-bold mb-2 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Brumado</h2>
+        <p className="mb-4">
+          O Instituto Gasparetto de Pesquisas, comunica que não tem nenhuma
+          pesquisa registrada concernente ao processo eleitoral do município de
+          BRUMADO, e que somente autoriza divulgação de pesquisa eleitoral,
+          única e exclusivamente, após o devido registro na Justiça Eleitoral.
+          <br></br>
+          <br></br>Nesse sentido, quaisquer resultados eleitorais atribuídos ao Instituto,
+          em qualquer município,
+          <span className='font-bold'> sem o devido registro na Justiça Eleitoral, não têm autorização e não avalizamos.</span>
+        </p>
+        <p>
+          No momento, os resutados eleitorais
+          referentes a Brumado, que circulam nas redes no município de
+          Brumado, utilizando a logomarca do Instituto, são inverídicos.</p>
+          <br></br>
+          <p>São fake
+          news. Não correspondem à realidade. Absolutamente falsos.
+        </p>
+        <p>
+          E, no presente caso, sequer verdadeiros, pelo simples fato de que essas pesquisas nesses municípios não foram realizadas.
+        </p>
+        <br></br>
+        <p className="mb-4">
+          Atenciosamente,
+        </p>
+        <p className="mb-4">
+          Agenor Gasparetto<br />
+          Sociólogo / GPE Pesquisas
+        </p>
+        <p className="mb-4">
+          Itabuna, 14 de setembro de 2024
+        </p>
+      </div>
+      <div className="mt-8  max-w-4xl mx-auto text-left">
+        <h2 className="text-xl font-bold mb-2 text-blue-900 hover:text-blue-500 transition duration-300 cursor-default">Nota de Esclarecimento - Mirangaba</h2>
         <p className="mb-4">
           Em função de veiculação em Mirangaba, via redes sociais, de resultados
           eleitorais atribuídos a um hipotético “Instituto GPE pesquisa eleitoral”, com data de agosto deste ano,
