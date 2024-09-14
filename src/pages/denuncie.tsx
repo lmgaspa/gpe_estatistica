@@ -47,9 +47,7 @@ const DenunciePage: React.FC = () => {
           <br></br>
           <p>São fake
           news. Não correspondem à realidade. Absolutamente falsos.
-        </p>
-        <p>
-          E, no presente caso, sequer verdadeiros, pelo simples fato de que essas pesquisas nesses municípios não foram realizadas.
+          <br></br>
         </p>
         <br></br>
         <p className="mb-4">
