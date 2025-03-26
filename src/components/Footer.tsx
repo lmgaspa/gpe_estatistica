@@ -16,9 +16,8 @@ const Footer: React.FC = () => {
   <span className="hover:text-yellow-300">(71) 99197-4445</span>
 </a>
 <p className="hover:text-yellow-300 cursor-pointer">
-  Copywriter. Simple Software. Todos os direitos reservados. 2024.
+  º Copywriter. Simple Software. Todos os direitos reservados. 2024.
 </p>
-
         </div>
       </div>
     </footer>
